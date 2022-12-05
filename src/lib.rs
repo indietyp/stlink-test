@@ -1,8 +1,6 @@
 #![no_main]
 #![no_std]
 
-use cortex_m::interrupt::{disable, enable};
-use critical_section::RawRestoreState;
 use defmt_rtt as _; // global logger
 
 use stm32h7xx_hal as _; // memory layout
